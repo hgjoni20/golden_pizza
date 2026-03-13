@@ -1,0 +1,513 @@
+{
+  "categoryTitle": "Golden Pizza Menu",
+  "categories": [
+    {"id": "te-gjitha", "label": "All"},
+    {"id": "pica speciale", "label": "Special Pizzas"},
+    {"id": "pica", "label": "Pizza"},
+    {"id": "sanduic", "label": "Sandwiches"},
+    {"id": "kalcone", "label": "Calzone"},
+    {"id": "fokace", "label": "Focaccia"},
+    {"id": "sallata", "label": "Salads"},
+    {"id": "pije", "label": "Drinks"},
+    {"id": "antipast", "label": "Antipasta"},
+    {"id": "embel", "label": "Sweet Pizza"}
+  ],
+  "items": [
+    {
+      "name": "Margherita",
+      "category": "pica",
+      "description": "Mozzarella & sauce",
+      "price_normal": "350 L",
+      "price_family": "550 L",
+      "image": "assets/margarita.webp"
+    },
+    {
+      "name": "Ham",
+      "category": "pica",
+      "description": "Beef ham, mozzarella & sauce",
+      "price_normal": "400 L",
+      "price_family": "700 L",
+      "image": "assets/golden.webp"
+    },
+    {
+      "name": "Salami",
+      "category": "pica",
+      "description": "Beef salami, mozzarella & sauce",
+      "price_normal": "400 L",
+      "price_family": "700 L",
+      "image": "assets/4sall.webp"
+    },
+    {
+      "name": "Diavola",
+      "category": "pica",
+      "description": "Beef pepperoni, mozzarella & sauce",
+      "price_normal": "450 L",
+      "price_family": "750 L",
+      "image": "assets/Diavola.webp"
+    },
+    {
+      "name": "Fillet",
+      "category": "pica",
+      "description": "Beef fillet, fresh mushrooms, mozzarella & sauce",
+      "price_normal": "450 L",
+      "price_family": "750 L",
+      "image": "assets/golden.webp"
+    },
+    {
+      "name": "Americana",
+      "category": "pica",
+      "description": "Beef salami, French fries, mozzarella & sauce",
+      "price_normal": "500 L",
+      "price_family": "800 L",
+      "image": "assets/golden.webp"
+    },
+    {
+      "name": "Tuna",
+      "category": "pica",
+      "description": "Tuna, mozzarella & sauce",
+      "price_normal": "450 L",
+      "price_family": "750 L",
+      "image": "assets/golden.webp"
+    },
+    {
+      "name": "Diavoleta",
+      "category": "pica",
+      "description": "Beef pepperoni, arugula, mozzarella & sauce",
+      "price_normal": "500 L",
+      "price_family": "800 L",
+      "image": "assets/Diavola.webp"
+    },
+    {
+      "name": "Tuna & Mushrooms",
+      "category": "pica",
+      "description": "Tuna, fresh mushrooms, mozzarella & sauce",
+      "price_normal": "520 L",
+      "price_family": "800 L",
+      "image": "assets/golden.webp"
+    },
+    {
+      "name": "Mushroom",
+      "category": "pica",
+      "description": "Fresh mushrooms, mozzarella & sauce",
+      "price_normal": "400 L",
+      "price_family": "680 L",
+      "image": "assets/golden.webp"
+    },
+    {
+      "name": "Ham & Mushrooms",
+      "category": "pica",
+      "description": "Beef ham, fresh mushrooms, mozzarella & sauce",
+      "price_normal": "470 L",
+      "price_family": "800 L",
+      "image": "assets/golden.webp"
+    },
+    {
+      "name": "Goloza",
+      "category": "pica",
+      "description": "Beef ham, fresh mushrooms, cream, mozzarella & sauce",
+      "price_normal": "500 L",
+      "price_family": "850 L",
+      "image": "assets/special.webp"
+    },
+    {
+      "name": "Ham & Salami",
+      "category": "pica",
+      "description": "Beef ham & salami, mozzarella, sauce",
+      "price_normal": "500 L",
+      "price_family": "800 L",
+      "image": "assets/krudo.webp"
+    },
+    {
+      "name": "4 Seasons",
+      "category": "pica",
+      "description": "Tuna, fresh mushrooms, beef ham & salami, mozzarella, sauce",
+      "price_normal": "500 L",
+      "price_family": "800 L",
+      "image": "assets/4st.webp"
+    },
+    {
+      "name": "4 Cheeses",
+      "category": "pica",
+      "description": "Mozzarella, gorgonzola, white cheese & parmesan",
+      "price_normal": "480 L",
+      "price_family": "850 L",
+      "image": "assets/margarita.webp"
+    },
+    {
+      "name": "Capricciosa",
+      "category": "pica",
+      "description": "Beef ham & salami, mushrooms, peppers, olives, mozzarella & sauce",
+      "price_normal": "500 L",
+      "price_family": "800 L",
+      "image": "assets/special.webp"
+    },
+    {
+      "name": "Alaska",
+      "category": "pica",
+      "description": "Crudo ham, cherry tomatoes, fresh mushrooms, mozzarella & sauce",
+      "price_normal": "550 L",
+      "price_family": "800 L",
+      "image": "assets/vegjetariane.webp"
+    },
+    {
+      "name": "Parmigianata",
+      "category": "pica",
+      "description": "Eggplant, beef pepperoni, parmesan, mozzarella & sauce",
+      "price_normal": "500 L",
+      "price_family": "800 L",
+      "image": "assets/gold.webp"
+    },
+    {
+      "name": "Max",
+      "category": "pica",
+      "description": "Beef pepperoni, gorgonzola, cream, parmesan, mozzarella",
+      "price_normal": "500 L",
+      "price_family": "800 L",
+      "image": "assets/4sall.webp"
+    },
+    {
+      "name": "Vegetarian",
+      "category": "pica",
+      "description": "Fresh mushrooms, vegetables, mozzarella & sauce",
+      "price_normal": "500 L",
+      "price_family": "800 L",
+      "image": "assets/vegjetariane.webp"
+    },
+    {
+      "name": "Fresh Sausage",
+      "category": "pica",
+      "description": "Beef sausage, mozzarella & sauce",
+      "price_normal": "500 L",
+      "price_family": "800 L",
+      "image": "assets/4sall.webp"
+    },
+    {
+      "name": "Crazy Sausage",
+      "category": "pica",
+      "description": "Fresh sausage, onion, olives, peppers, mozzarella & sauce",
+      "price_normal": "600 L",
+      "price_family": "900 L",
+      "image": "assets/Diavola.webp"
+    },
+    {
+      "name": "Crudo",
+      "category": "pica",
+      "description": "Crudo ham, mozzarella & sauce",
+      "price_normal": "500 L",
+      "price_family": "800 L",
+      "image": "assets/krudo.webp"
+    },
+    {
+      "name": "Philadelphia",
+      "category": "pica speciale",
+      "description": "Beef ham, Philadelphia, truffle, mozzarella & sauce",
+      "price_normal": "700 L",
+      "price_family": "1000 L",
+      "image": "assets/embla.webp"
+    },
+    {
+      "name": "Chicken",
+      "category": "pica speciale",
+      "description": "Chicken fillet, potatoes, Philadelphia, mozzarella & sauce",
+      "price_normal": "650 L",
+      "price_family": "950 L",
+      "image": "assets/golen.webp"
+    },
+    {
+      "name": "Lacrema",
+      "category": "pica speciale",
+      "description": "Beef ham, fresh mushrooms, pepperoni, cream, mozzarella & sauce",
+      "price_normal": "650 L",
+      "price_family": "950 L",
+      "image": "assets/special.webp"
+    },
+    {
+      "name": "Special Spicy",
+      "category": "pica speciale",
+      "description": "Beef pepperoni, fresh sausage, Philadelphia, mozzarella & sauce",
+      "price_normal": "700 L",
+      "price_family": "1000 L",
+      "image": "assets/krem.webp"
+    },
+    {
+      "name": "Pancetta",
+      "category": "pica speciale",
+      "description": "Pancetta, fresh mushrooms, Philadelphia, mozzarella & sauce",
+      "price_normal": "650 L",
+      "price_family": "950 L",
+      "image": "assets/krudo.webp"
+    },
+    {
+      "name": "4 Salamis",
+      "category": "pica speciale",
+      "description": "Salami, ham, pepperoni, fresh sausage, mozzarella & sauce",
+      "price_normal": "700 L",
+      "price_family": "1050 L",
+      "image": "assets/4sall.webp"
+    },
+    {
+      "name": "Primavera",
+      "category": "pica speciale",
+      "description": "Arugula, crudo ham, cherry tomatoes, parmesan, balsamic vinegar, mozzarella & sauce",
+      "price_normal": "680 L",
+      "price_family": "1050 L",
+      "image": "assets/embla.webp"
+    },
+    {
+      "name": "Special Pancetta",
+      "category": "pica speciale",
+      "description": "Pancetta, Philadelphia, truffle, mozzarella & sauce",
+      "price_normal": "680 L",
+      "price_family": "1050 L",
+      "image": "assets/krudo.webp"
+    },
+    {
+      "name": "Normal",
+      "category": "sanduic",
+      "description": "Beef ham, peppers, olives, tomatoes, mayo, pizza cheese",
+      "price": "150 L",
+      "image": "assets/fshati.webp"
+    },
+    {
+      "name": "Village",
+      "category": "sanduic",
+      "description": "Beef ham, lettuce, tomatoes, mayo, white cheese, olives, pizza cheese",
+      "price": "200 L",
+      "image": "assets/sanduich.webp"
+    },
+    {
+      "name": "Ham & Mushroom",
+      "category": "sanduic",
+      "description": "Beef ham, fresh mushrooms, mayo, pizza cheese",
+      "price": "200 L",
+      "image": "assets/fshati.webp"
+    },
+    {
+      "name": "Ham & Potato",
+      "category": "sanduic",
+      "description": "Beef ham, potatoes, lettuce, tomatoes, mayo, pizza cheese",
+      "price": "220 L",
+      "image": "assets/sanduich.webp"
+    },
+    {
+      "name": "Salami",
+      "category": "sanduic",
+      "description": "Beef salami, potatoes, lettuce, tomatoes, mayo, pizza cheese",
+      "price": "220 L",
+      "image": "assets/fshati.webp"
+    },
+    {
+      "name": "Spicy",
+      "category": "sanduic",
+      "description": "Spicy beef salami, peppers, olives, white cheese, mayo, pizza cheese",
+      "price": "200 L",
+      "image": "assets/sanduich.webp"
+    },
+    {
+      "name": "Spicy & Potato",
+      "category": "sanduic",
+      "description": "Spicy beef salami, potatoes, lettuce, tomatoes, mayo, pizza cheese",
+      "price": "220 L",
+      "image": "assets/fshati.webp"
+    },
+    {
+      "name": "4 Cheeses",
+      "category": "sanduic",
+      "description": "Gorgonzola, mozzarella, white cheese, parmesan",
+      "price": "220 L",
+      "image": "assets/sanduich.webp"
+    },
+    {
+      "name": "Fillet",
+      "category": "sanduic",
+      "description": "Beef fillet, potatoes, lettuce, tomatoes, mayo, pizza cheese",
+      "price": "220 L",
+      "image": "assets/fshati.webp"
+    },
+    {
+      "name": "Tuna",
+      "category": "sanduic",
+      "description": "Tuna, peppers, olives, mayo, pizza cheese",
+      "price": "220 L",
+      "image": "assets/sanduich.webp"
+    },
+    {
+      "name": "Tuna & Mushroom",
+      "category": "sanduic",
+      "description": "Tuna, fresh mushrooms, mayo, pizza cheese",
+      "price": "220 L",
+      "image": "assets/fshati.webp"
+    },
+    {
+      "name": "Vegetarian",
+      "category": "sanduic",
+      "description": "Fresh mushrooms, vegetables, mayo, pizza cheese",
+      "price": "220 L",
+      "image": "assets/sanduich.webp"
+    },
+    {
+      "name": "Pancetta",
+      "category": "sanduic",
+      "description": "Pancetta, gorgonzola, lettuce, tomatoes, mayo, pizza cheese",
+      "price": "250 L",
+      "image": "assets/fshati.webp"
+    },
+    {
+      "name": "Mix",
+      "category": "sanduic",
+      "description": "Beef ham, spicy salami, mushrooms, peppers, olives, tomatoes, mayo, pizza cheese",
+      "price": "280 L",
+      "image": "assets/sanduich.webp"
+    },
+    {
+      "name": "Crudo",
+      "category": "sanduic",
+      "description": "Crudo ham, tomatoes, parmesan, mayo, pizza cheese",
+      "price": "280 L",
+      "image": "assets/fshati.webp"
+    },
+    {
+      "name": "Classic Calzone",
+      "category": "kalcone",
+      "description": "Beef ham, fresh mushrooms, mozzarella & sauce",
+      "price": "450 L",
+      "image": "assets/kalcone.webp"
+    },
+    {
+      "name": "Mix Calzone",
+      "category": "kalcone",
+      "description": "Beef ham, spicy salami, mushrooms, olives, peppers, mozzarella & sauce",
+      "price": "500 L",
+      "image": "assets/kalcone.webp"
+    },
+    {
+      "name": "4 Salamis Calzone",
+      "category": "kalcone",
+      "description": "Beef ham, spicy salami, salami, fresh sausage, mozzarella & sauce",
+      "price": "600 L",
+      "image": "assets/kalcone.webp"
+    },
+    {
+      "name": "4 Cheeses Calzone",
+      "category": "kalcone",
+      "description": "Mozzarella, gorgonzola, white cheese, parmesan & sauce",
+      "price": "480 L",
+      "image": "assets/kalcone.webp"
+    },
+    {
+      "name": "Gold Calzone",
+      "category": "kalcone",
+      "description": "Ham, salami, mushrooms, gorgonzola, spicy salami, olives, cream, arugula, cherry tomatoes, parmesan, balsamic vinegar, mozzarella",
+      "price": "700 L",
+      "image": "assets/kalcone.webp"
+    },
+    {
+      "name": "Simple Focaccia",
+      "category": "fokace",
+      "description": "Focaccia with oil, salt & oregano",
+      "price": "150 L",
+      "image": "assets/golden.webp"
+    },
+    {
+      "name": "Focaccia with Onion",
+      "category": "fokace",
+      "description": "Focaccia with oil, salt, oregano & onion",
+      "price": "200 L",
+      "image": "assets/golden.webp"
+    },
+    {
+      "name": "Focaccia with Cheese",
+      "category": "fokace",
+      "description": "Focaccia with oil, salt, oregano & white cheese",
+      "price": "270 L",
+      "image": "assets/golden.webp"
+    },
+    {
+      "name": "Crudo Focaccia",
+      "category": "fokace",
+      "description": "Crudo ham, Philadelphia, cherry tomatoes, balsamic vinegar",
+      "price": "470 L",
+      "image": "assets/golden.webp"
+    },
+    {
+      "name": "Bruschetta",
+      "category": "fokace",
+      "description": "Oil, salt, oregano, tomatoes, white cheese",
+      "price": "300 L",
+      "image": "assets/golden.webp"
+    },
+    {
+      "name": "Green Salad",
+      "category": "sallata",
+      "description": "Green salad, tomatoes, olives",
+      "price": "300 L",
+      "image": "assets/jeshile.webp"
+    },
+    {
+      "name": "Arugula Salad",
+      "category": "sallata",
+      "description": "Arugula, green salad, tomatoes, olives",
+      "price": "350 L",
+      "image": "assets/golden.webp"
+    },
+    {
+      "name": "Village Salad",
+      "category": "sallata",
+      "description": "Tomatoes, olives, peppers, green salad, white cheese, onion",
+      "price": "400 L",
+      "image": "assets/sallat.webp"
+    },
+    {
+      "name": "Water",
+      "category": "pije",
+      "price": "50 L",
+      "image": "assets/uje.webp"
+    },
+    {
+      "name": "Dhalle",
+      "category": "pije",
+      "price": "70 L",
+      "image": "assets/dhall.webp"
+    },
+    {
+      "name": "Soft Drinks",
+      "category": "pije",
+      "price": "120 L",
+      "image": "assets/golden.webp"
+    },
+    {
+      "name": "Elbar Beer",
+      "category": "pije",
+      "price": "200 L",
+      "image": "assets/embla.webp"
+    },
+    {
+      "name": "Heineken",
+      "category": "pije",
+      "price": "250 L",
+      "image": "assets/heniken.webp"
+    },
+    {
+      "name": "Pizza Embla",
+      "category": "embel",
+      "description": "Nutella and various fruits",
+      "price": "800 L",
+      "image": "assets/embla.webp"
+    },
+    {
+      "name": "Small Antipasto",
+      "category": "antipast",
+      "description": "Crudo ham, salami, pepperoni, parmesan, gorgonzola, argula, cherry tomatoes, milanese salami, focaccia",
+      "price": "700 L",
+      "image": "assets/Antipast.webp"
+    },
+    {
+      "name": "Large Antipasto",
+      "category": "antipast",
+      "description": "Crudo ham, salami, pepperoni, parmesan, gorgonzola, argula, cherry tomatoes, milanese salami, focaccia",
+      "price": "1200 L",
+      "image": "assets/Antipast.webp"
+    }
+
+  ]
+}

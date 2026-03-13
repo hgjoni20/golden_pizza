@@ -1,0 +1,513 @@
+{
+  "categoryTitle": "Golden Pizza Menu",
+  "categories": [
+    {"id": "te-gjitha", "label": "Të Gjitha"},
+    {"id": "pica speciale", "label": "Pica Speciale"},
+    {"id": "pica", "label": "Pica"},
+    {"id": "sanduic", "label": "Sanduic"},
+    {"id": "kalcone", "label": "Kalcone"},
+    {"id": "fokace", "label": "Fokace"},
+    {"id": "sallata", "label": "Sallata"},
+    {"id": "pije", "label": "Pije"},
+    {"id": "antipast", "label": "Antipasta"},
+    {"id": "embel", "label": "Pice e Embel"}
+  ],
+  "items": [
+    {
+      "name": "Margarita",
+      "category": "pica",
+      "description": "Mocarela & salc",
+      "price_normal": "350 L",
+      "price_family": "550 L",
+      "image": "assets/margarita.webp"
+    },
+    {
+      "name": "Proshut",
+      "category": "pica",
+      "description": "Proshut vici, mocarela & salc",
+      "price_normal": "400 L",
+      "price_family": "700 L",
+      "image": "assets/golden.webp"
+    },
+    {
+      "name": "Sallam",
+      "category": "pica",
+      "description": "Sallam vici, mocarela & salc",
+      "price_normal": "400 L",
+      "price_family": "700 L",
+      "image": "assets/4sall.webp"
+    },
+    {
+      "name": "Diavola",
+      "category": "pica",
+      "description": "Peperoni vici, mocarela & salc",
+      "price_normal": "450 L",
+      "price_family": "750 L",
+      "image": "assets/Diavola.webp"
+    },
+    {
+      "name": "Fileto",
+      "category": "pica",
+      "description": "fileto, kerpudha te fresketa, mocarela & salc",
+      "price_normal": "450 L",
+      "price_family": "750 L",
+      "image": "assets/golden.webp"
+    },
+    {
+      "name": "Amerikana",
+      "category": "pica",
+      "description": "Sallam vici, Patate te skuqura, mocarela & salc",
+      "price_normal": "500 L",
+      "price_family": "800 L",
+      "image": "assets/golden.webp"
+    },
+    {
+      "name": "Ton",
+      "category": "pica",
+      "description": "Ton, mocarela & salc",
+      "price_normal": "450 L",
+      "price_family": "750 L",
+      "image": "assets/golden.webp"
+    },
+    {
+      "name": "Diavoleta",
+      "category": "pica",
+      "description": "Peperoni vici, rukola, mocarela & salc",
+      "price_normal": "500 L",
+      "price_family": "800 L",
+      "image": "assets/Diavola.webp"
+    },
+    {
+      "name": "Ton & Kerpudha",
+      "category": "pica",
+      "description": "Ton, kerpudha te fresketa, mocarela & salc",
+      "price_normal": "520 L",
+      "price_family": "800 L",
+      "image": "assets/golden.webp"
+    },
+    {
+      "name": "Kerpudha",
+      "category": "pica",
+      "description": "Kerpudha te fresketa, mocarela & salc",
+      "price_normal": "400 L",
+      "price_family": "680 L",
+      "image": "assets/golden.webp"
+    },
+    {
+      "name": "Proshut Kerpudha",
+      "category": "pica",
+      "description": "Proshut vici, kerpudha te fresketa, mocarela & salc",
+      "price_normal": "470 L",
+      "price_family": "800 L",
+      "image": "assets/golden.webp"
+    },
+    {
+      "name": "Goloza",
+      "category": "pica",
+      "description": "Proshut vici, kerpudha te frekseta, pana, mocarela & salc",
+      "price_normal": "500 L",
+      "price_family": "850 L",
+      "image": "assets/special.webp"
+    },
+    {
+      "name": "Proshut Sallam",
+      "category": "pica",
+      "description": "Proshut & sallam vici, mocarela, salc",
+      "price_normal": "500 L",
+      "price_family": "800 L",
+      "image": "assets/krudo.webp"
+    },
+    
+    {
+  "name": "4 Stinet",
+  "category": "pica",
+  "description": "Ton, kerpudha te fresketa, proshut & sallam vici, mocarela, salc",
+  "price_normal": "500 L",
+  "price_family": "800 L",
+  "image": "assets/4st.webp"
+},
+{
+  "name": "4 Djathrat",
+  "category": "pica",
+  "description": "Mocarela, gogonxola, djath i bardh & parmixhano",
+  "price_normal": "480 L",
+  "price_family": "850 L",
+  "image": "assets/margarita.webp"
+},
+{
+  "name": "Kapricoza",
+  "category": "pica",
+  "description": "Peoshut & sallam vici, kerpudha, speca, ullinj, mocarela & salc",
+  "price_normal": "500 L",
+  "price_family": "800 L",
+  "image": "assets/special.webp"
+},
+{
+  "name": "Alaska",
+  "category": "pica",
+  "description": "Proshut krudo, pomodorini, kerpudha te fresketa, mocarela & salc",
+  "price_normal": "550 L",
+  "price_family": "800 L",
+  "image": "assets/vegjetariane.webp"
+},
+{
+  "name": "Parmiganata",
+  "category": "pica",
+  "description": "Patellxhan, peperoni vici, parmixhano, mocarela & salc",
+  "price_normal": "500 L",
+  "price_family": "800 L",
+  "image": "assets/gold.webp"
+},
+{
+  "name": "Max",
+  "category": "pica",
+  "description": "Peperoni vici, gogonxola, pana, parmixhano, mocarela",
+  "price_normal": "500 L",
+  "price_family": "800 L",
+  "image": "assets/4sall.webp"
+},
+{
+  "name": "Vegjetariane",
+  "category": "pica",
+  "description": "Kerpudha te fresketa, perime, mocarela & salc",
+  "price_normal": "500 L",
+  "price_family": "800 L",
+  "image": "assets/vegjetariane.webp"
+},
+{
+  "name": "Salcice e fresket",
+  "category": "pica",
+  "description": "Sallam vici, mocarela & salc",
+  "price_normal": "500 L",
+  "price_family": "800 L",
+  "image": "assets/4sall.webp"
+},
+{
+  "name": "Salcice crazyy",
+  "category": "pica ",
+  "description": "Salcice e fresket, qep, ullinj, speca, mocarela & salc",
+  "price_normal": "600 L",
+  "price_family": "900 L",
+  "image": "assets/Diavola.webp"
+},
+{
+  "name": "Krudo",
+  "category": "pica",
+  "description": "Proshut krudo, mocarela & salc",
+  "price_normal": "500 L",
+  "price_family": "800 L",
+  "image": "assets/krudo.webp"
+},
+{
+  "name": "Philadelphia",
+  "category": "pica speciale",
+  "description": "Proshut vici, filadelfia, tartuf, mocarela & salc",
+  "price_normal": "700 L",
+  "price_family": "1000 L",
+  "image": "assets/embla.webp"
+},
+{
+  "name": "Chicken",
+  "category": "pica speciale",
+  "description": "Fileto pule, patate, Filadelfia, mocarela & salc",
+  "price_normal": "650 L",
+  "price_family": "950 L",
+  "image": "assets/golden.webp"
+},
+{
+  "name": "Lakrema",
+  "category": "pica speciale",
+  "description": "Proshut vici, kerpudha te fresketa, peperoni, pana, mocarela & salc",
+  "price_normal": "650 L",
+  "price_family": "950 L",
+  "image": "assets/special.webp"
+},
+{
+  "name": "Pikant Speciale",
+  "category": "pica speciale",
+  "description": "Peperoni vici, salcice e fresket, filadelfia, mocarela & salc",
+  "price_normal": "700 L",
+  "price_family": "1000 L",
+  "image": "assets/krem.webp"
+},
+{
+  "name": "Pancet",
+  "category": "pica speciale",
+  "description": "Pancet, kerpudha te fresketa, filadelfia, mocarela & salc",
+  "price_normal": "650 L",
+  "price_family": "950 L",
+  "image": "assets/krudo.webp"
+},
+{
+  "name": "4 Sallamat",
+  "category": "pica speciale",
+  "description": "sallam, proshut, peperoni, salcice e fresket, mocarela & salc",
+  "price_normal": "700 L",
+  "price_family": "1050 L",
+  "image": "assets/4sall.webp"
+},
+{
+  "name": "Primavera",
+  "category": "pica speciale",
+  "description": "Rukola, proshut krudo, pomodorini, parmixhano, aceto, mocarela & salc",
+  "price_normal": "680 L",
+  "price_family": "1050 L",
+  "image": "assets/embla.webp"
+},
+{
+  "name": "Pancet Speciale",
+  "category": "pica speciale",
+  "description": "Pancet, filadelfia, tartuf, mocarela & salc",
+  "price_normal": "680 L",
+  "price_family": "1050 L",
+  "image": "assets/krudo.webp"
+},
+{
+  "name": "Normal",
+  "category": "sanduic",
+  "description": "Proshut vici, speca, ullinj, domate, majonez, djath pice",
+  "price": "150 L",
+  "image": "assets/fshati.webp"
+},
+{
+  "name": "Fshati",
+  "category": "sandiuc",
+  "description": "Proshut vici, sallat, domate, majonez, djath te bardh, ullinj, djath pice",
+  "price": "200",
+  "image": "assets/sanduich.webp"
+},
+{
+  "name": "Proshut Kerpudh",
+  "category": "sanduic",
+  "description": "Proshut vici, kerpudha te fresketa, majonez, djath pice",
+  "price": "200 L",
+  "image": "assets/fshati.webp"
+},
+{
+  "name": "Proshut Patate",
+  "category": "sanduic",
+  "description": "Proshut vici, patate, sallat, domate, majonez, djath pice",
+  "price": "220 L",
+  "image": "assets/sanduich.webp"
+},
+{
+  "name": "Sallam",
+  "category": "sanduic",
+  "description": "Sallam vici, patate, sallat, domate, majonez, djath pice",
+  "price": "220 L",
+  "image": "assets/fshati.webp"
+},
+{
+  "name": "Pikant",
+  "category": "sanduic",
+  "description": "Sallam pikant vici, speca, ullinj, djath te bardh, majonez, djath pice",
+  "price": "200 L",
+  "image": "assets/sanduich.webp"
+},
+{
+  "name": "Pikant Patate",
+  "category": "sanduic",
+  "description": "Sallam pikant vici, patate, sallat, domate, majonez, djath pice",
+  "price": "220 L",
+  "image": "assets/fshati.webp"
+},
+{
+  "name": "4 Djathrat ",
+  "category": "sandiuc",
+  "description": "Gogonxola, mocarela, djath i bardh, parmixhano",
+  "price": "220 L",
+  "image": "assets/sanduich.webp"
+},
+{
+  "name": "Fileto",
+  "category": "sanduic",
+  "description": "Fileto, patate, sallat, domate, majonez, djath pice",
+  "price": "220 L",
+  "image": "assets/fshati.webp"
+},
+{
+  "name": "Ton",
+  "category": "sanduic",
+  "description": "Ton, speca, ullinj, majoinez, djath pice",
+  "price": "220 L",
+  "image": "assets/sanduich.webp"
+},
+{
+  "name": "Ton Kerpudh",
+  "category": "sanduic",
+  "description": "Ton, kerpudha te fresketa, majonez, djath pice",
+  "price": "220 L",
+  "image": "assets/fshati.webp"
+},
+{
+  "name": "Vegjetarian",
+  "category": "sanduic",
+  "description": "Kerpudha te fresketa, perime, majonez, djath pice",
+  "price": "220 L",
+  "image": "assets/sanduich.webp"
+},
+{
+  "name": "Pancet",
+  "category": "sanduic",
+  "description": "Pancet, gognxola, sallate, domate, majonez, djath pice",
+  "price": "230 L",
+  "image": "assets/fshati.webp"
+},
+{
+  "name": "Mix",
+  "category": "sanduic",
+  "description": "Proshut vici, sallam pikant, kerpudha, speca, ullinj, domate, majonez, djath pice",
+  "price": "280 L",
+  "image": "assets/sanduich.webp"
+},
+{
+  "name": "Krudo",
+  "category": "sanduic",
+  "description": "Proshut krudo, domate, parmixhano, majonez, djath pice",
+  "price": "280 L",
+  "image": "assets/fshati.webp"
+},
+{
+  "name": "Kalcone Klasik",
+  "category": "kalcone",
+  "description": "Proshut vici, kerpudha te fresketa, mocarela & salc",
+  "price": "450 L",
+  "image": "assets/kalcone.webp"
+},
+{
+  "name": "Kalcone Mix",
+  "category": "kalcone",
+  "description": "Proshut vici, sallam pikant, kerpudha, ullinj, speca, mocarela & salc",
+  "price": "500 L",
+  "image": "assets/kalcone.webp"
+},
+{
+  "name": "Kalcone 4 Sallamrat",
+  "category": "kalcone",
+  "description": "Proshut vici, sallam pikant, sallam, salcice e fresket, mocarela & salc",
+  "price": "600 L",
+  "image": "assets/kalcone.webp"
+},
+{
+  "name": "Kalcone 4 Djathrat",
+  "category": "kalcone",
+  "description": "Mocarela, gogonxola, djath i bardhe, parmixhano & salc",
+  "price": "480 L",
+  "image": "assets/kalcone.webp"
+},
+{
+  "name": "Kalcone Gold",
+  "category": "kalcone",
+  "description": "Proshut, sallam, kerpudha, gogonxola, sallam pikant, ullinj, pana, rukola, pomodorini, parmixhano, aceto, mocarela",
+  "price": "700 L",
+  "image": "assets/kalcone.webp"
+},
+{
+  "name": "Fokace e Thjeshte",
+  "category": "fokace",
+  "description": "Fokace me vaj kripe & rigon",
+  "price": "150 L",
+  "image": "assets/golden.webp"
+},
+{
+  "name": "Fokace me Qep",
+  "category": "fokace",
+  "description": "Fokace me vaj, krip, rigon & qep ",
+  "price": "200 L",
+  "image": "assets/golden.webp"
+},
+{
+  "name": "Fokace me Djath ",
+  "category": "fokace",
+  "description": "fokace me vaj, krip, rigon & djath te bardh",
+  "price": "270 L",
+  "image": "assets/golden.webp"
+},
+{
+  "name": "Fokace Krudo",
+  "category": "fokace",
+  "description": "Proshut krudo, filadelfia, pomodorini, aceto",
+  "price": "470 L",
+  "image": "assets/golden.webp"
+},
+{
+  "name": "Brusketa",
+  "category": "fokace",
+  "description": "Vaj, krip, rigon, domate, djath te bardh",
+  "price": "300 L",
+  "image": "assets/golden.webp"
+},
+{
+  "name": "Sallat Jeshile",
+  "category": "sallata",
+  "description": "Sallat jeshile, domate, ullinj",
+  "price": "300 L",
+  "image": "assets/jeshile.webp"
+},
+{
+  "name": "Sallat Rukola",
+  "category": "sallata",
+  "description": "Rukola, sallat jeshile, domate, ullinj",
+  "price": "350 L",
+  "image": "assets/golden.webp"
+},
+{
+  "name": "Sallat Fshati",
+  "category": "sallata",
+  "description": "Domate, ullinj, speca, sallat jeshile, djath te bardh, qep",
+  "price": "400 L",
+  "image": "assets/sallat.webp"
+},
+{
+  "name": "Uje",
+  "category": "pije",
+  "price": "50 L",
+  "image": "assets/uje.webp"
+},
+{
+  "name": "Dhalle",
+  "category": "pije",
+  "price": "70 L",
+  "image": "assets/dhall.webp"
+},
+{
+  "name": "Pije Freskuese",
+  "category": "pije",
+  "price": "120 L",
+  "image": "assets/golden.webp"
+},
+{
+  "name": "Elbar",
+  "category": "pije",
+  "price": "200 L",
+  "image": "assets/elbar.webp"
+},
+{
+  "name": "Henieken",
+  "category": "pije",
+  "price": "250 L",
+  "image": "assets/heniken.webp"
+},
+{
+  "name": "Pica Embla",
+  "category": "embel",
+  "description": "Nutella dhe fruta te ndryshme",
+  "price": "800 L",
+  "image": "assets/embla.webp"
+},
+{
+  "name": "Antipaste e vogel",
+  "category": "antipast",
+  "description":"Proshut krudo, sallam, sallam pikant, parmixhano, gogonxola, rukola, pomodorini, aceto, sallam milanez, fokace",
+  "price": "700 L",
+  "image": "assets/Antipast.webp"
+},
+{
+  "name": "Antipaste e Madhe",
+  "category": "antipast",
+  "description":"Proshut krudo, sallam, sallam pikant, parmixhano, gogonxola, rukola, pomodorini, aceto, sallam milanez, fokace",
+  "price": "1200 L",
+  "image": "assets/Antipast.webp"
+}
+  ]
+}
