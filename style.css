@@ -1,0 +1,158 @@
+:root {
+    --gold: linear-gradient(135deg, #d4af37 0%, #f2d472 50%, #b8860b 100%);
+    --dark-bg: #121212;
+    --card-bg: #1e1e1e;
+    --gold-solid: #d4af37;
+    --text-main: #ffffff;
+    --text-muted: #a0a0a0;
+}
+
+* { margin: 0; padding: 0; box-sizing: border-box; }
+
+body {
+    background-color: var(--dark-bg);
+    color: var(--text-main);
+    font-family: 'Inter', sans-serif;
+    line-height: 1.6;
+}
+
+/* Hero & Banner */
+.banner { width: 100%; height: 280px; position: relative; overflow: hidden; }
+.banner img { width: 100%; height: 100%; object-fit: cover; }
+.overlay { position: absolute; top: 0; left: 0; width: 100%; height: 100%; background: linear-gradient(to bottom, rgba(0,0,0,0.3), rgba(18,18,18,1)); }
+.logo-text { position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); font-family: 'Playfair Display', serif; font-size: 2.5rem; letter-spacing: 5px; color: #fff; text-shadow: 0 4px 15px rgba(0,0,0,0.8); }
+
+/* Language Picker */
+.lang-section { display: flex; justify-content: center; margin-top: -22px; position: relative; z-index: 10; }
+.language-picker { background: #1a1a1a; border: 1px solid rgba(212, 175, 55, 0.4); display: flex; position: relative; width: 150px; height: 44px; border-radius: 25px; padding: 2px; }
+.language-picker input { display: none; }
+.language-picker label { flex: 1; text-align: center; line-height: 40px; z-index: 2; cursor: pointer; font-weight: 700; color: var(--gold-solid); }
+.glider { position: absolute; height: 40px; width: 73px; background: var(--gold); border-radius: 20px; z-index: 1; transition: transform 0.4s; }
+#sq:checked ~ .glider { transform: translateX(0); }
+#en:checked ~ .glider { transform: translateX(73px); }
+#sq:checked + label, #en:checked + label { color: #000; }
+
+/* Categories */
+.categories { display: flex; justify-content: center; gap: 10px; margin: 20px 0 30px; flex-wrap: wrap; }
+.cat-btn { background: transparent; border: 1px solid var(--gold-solid); color: var(--gold-solid); padding: 8px 18px; border-radius: 20px; cursor: pointer; transition: 0.3s; font-weight: 600; }
+.cat-btn.active, .cat-btn:hover { background: var(--gold); color: #000; }
+
+/* Menu Cards */
+.container { padding: 40px 20px; max-width: 800px; margin: 0 auto; }
+.menu-grid { display: grid; gap: 25px; }
+.pizza-card { background: var(--card-bg); border-radius: 15px; overflow: hidden; display: flex; flex-direction: column; transition: 0.3s; }
+.pizza-card:hover { transform: translateY(-5px); }
+.pizza-img {
+    /* Heqim height: 200px; */
+    width: 100%;             /* Mbush gjerësinë e kornizës së produktit */
+    aspect-ratio: 5 / 4;    /* Detyron kornizën të jetë në formatin 5:4 */
+    overflow: hidden;        /* Fsheh çdo pjesë të imazhit që del jashtë */
+}
+
+/* Modifikoni edhe këtë pjesë: */
+.pizza-img img {
+    width: 100%;             /* Mbush gjerësinë e kornizës */
+    height: 100%;            /* Mbush lartësinë e kornizës */
+    object-fit: cover;       /* "Sekreti": Prerja inteligjente për të ruajtur formatin */
+    transition: transform 0.3s ease; /* Për efektin kur kalon miun */
+}
+
+/* ... pjesa tjetër e kodit tuaj ... */
+
+.pizza-info { padding: 20px; }
+.pizza-info h3 { color: var(--gold-solid); margin-bottom: 5px; }
+.pizza-info p { color: var(--text-muted); font-size: 0.9rem; margin-bottom: 15px; }
+
+/* Price Section */
+.price-container { display: flex; justify-content: space-between; border-top: 1px solid rgba(255,255,255,0.1); padding-top: 10px; }
+.price-item { text-align: center; flex: 1; }
+.price-label { display: block; font-size: 0.65rem; color: var(--text-muted); text-transform: uppercase; letter-spacing: 1px; }
+.price-value { font-weight: 700; color: var(--gold-solid); font-size: 1.1rem; }
+
+.footer { text-align: center; padding: 40px; color: #555; font-size: 0.8rem; }
+/* Mundëson lëvizjen e butë kur klikon butonin */
+html {
+    scroll-behavior: smooth;
+}
+
+/* Stilimi i butonit About Us */
+.lang-section {
+    flex-direction: column; /* I vendos elementet vertikalisht */
+    align-items: center;
+    gap: 15px; /* Hapësira midis butonit dhe përzgjedhësit të gjuhës */
+}
+
+.about-btn {
+    align-self: flex-center; /* E dërgon butonin në krahun e djathtë */
+    margin-right: 20px;
+     /* Hapësirë nga anash */
+    background: var(--gold);
+    color: #000;
+    text-decoration: none;
+    padding: 8px 20px;
+    border-radius: 20px;
+    font-weight: 700;
+    font-size: 0.85rem;
+    transition: 0.3s;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+}
+
+.about-btn:hover {
+    transform: scale(1.05);
+    filter: brightness(1.1);
+}
+
+/* Përshtatja për mobile që butoni të mos dalë jashtë ekranit */
+@media (max-width: 600px) {
+    .about-btn {
+        margin-right: 10px;
+    }
+}
+.btn-contact {
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    padding: 0;
+    width: 25px;
+    height: 25px;
+    transition: transform 0.3s;
+}
+#contact {
+    margin-bottom: 5px;
+    color: var(--text-muted);
+} 
+#number {
+    margin-bottom: 10px;
+    color: var(--gold-solid);
+    font-weight: 700;
+}
+.btn-instagram {
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    padding: 0;
+    width: 25px;
+    height: 25px;
+    transition: transform 0.3s;
+}
+#follow {
+    margin-bottom: 5px;
+    color: var(--text-muted);
+} 
+.btn-location {
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    padding: 0;
+    width: 25px;
+    height: 25px;
+    transition: transform 0.3s;
+}
+#location {
+    margin-bottom: 5px;
+    color: var(--text-muted);
+} 
+#description {
+    margin-bottom: 10px;
+    color: var(--text-muted);
+} 

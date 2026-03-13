@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="sq">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Golden Pizza</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header class="hero">
+        <div class="banner">
+            <img src="https://images.unsplash.com/photo-1513104890138-7c749659a591?auto=format&fit=crop&w=800&q=80" alt="Golden Pizza Banner">
+            <div class="overlay"></div>
+            <h1 class="logo-text">GOLDEN PIZZA</h1>
+        </div>
+        <div class="lang-section">
+            <div class="language-picker">
+                <input type="radio" id="sq" name="lang" value="sq" checked>
+                <label for="sq">AL</label>
+                
+                <input type="radio" id="en" name="lang" value="en">
+                <label for="en">EN</label>
+                
+                <div class="glider"></div>
+            </div>
+        </div>
+    </header>
+      
+    <main class="container">
+        <div class="category-title">
+             <div class="lang-section">
+            <a href="#main-footer" class="about-btn">About Us</a>
+        </div>
+            <h2 id="category-name">Golden Pizza Menu</h2>
+            <div class="gold-line"></div>
+        </div>
+
+        <div class="categories" id="category-filters">
+        </div>
+
+        <section class="menu-grid" id="menu-container"></section>
+    </main>
+
+    <footer class="footer" id="main-footer">
+        <h4 id="number">+355683000491</h4>
+        <p id="description">Sherbim delivery ne gjithe Tiranen, me tarifa simbolike ne baze te distances</p>
+        <figure>
+        <button class="btn-location" onclick="window.location.href='https://maps.app.goo.gl/8YpuKrJMSfuVqPox7?g_st=ac'">
+            <img class="btn-location" src="assets/map.png">
+        </button>
+        <figcaption id="location">Our Location</figcaption>
+        </figure>
+        <figure>
+        <button class="btn-contact" onclick="window.location.href='https://wa.me/355683000491'">
+            <img class="btn-contact" src="assets/whatsapp(1).png">
+        </button>
+        <figcaption id="contact">Contact us on WhatsApp</figcaption>
+        </figure>
+         <figure>
+        <button class="btn-instagram" onclick="window.location.href='https://www.instagram.com/golden_pizza.tiran?igsh=ajlyaGpxeTdhNjQx'">
+            <img class="btn-instagram" src="assets/instagram.png">
+        </button>
+        <figcaption id="follow">Follow us on Instagram</figcaption>
+        </figure>
+        <p>&copy; 2026 <a href="about.html" target="_blank">h.gjoni20</a>. All Rights Reserved. Developed exclusively for Golden Pizza.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
