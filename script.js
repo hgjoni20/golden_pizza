@@ -1,7 +1,15 @@
-let allMenuItems = []; 
+let allMenuItems = [];
+let currentLang = 'sq'; // Ruajmë gjuhën aktuale
+
+// Objekt me përkthimet
+const translations = {
+    'sq': { normal: 'Normale', family: 'Familjare' },
+    'en': { normal: 'Regular', family: 'Family' }
+};
 
 async function fetchMenu(lang) {
     try {
+        currentLang = lang; // Ruajmë gjuhën e zgjedhur
         const response = await fetch(`data/menu-${lang}.json`);
         if (!response.ok) throw new Error("Skedari nuk u gjet");
         const data = await response.json();
@@ -46,27 +54,25 @@ function renderCategories(categories) {
 function renderMenu(items) {
     const container = document.getElementById('menu-container');
     container.innerHTML = ''; 
+    
+    // Marrim përkthimet për gjuhën aktuale
+    const t = translations[currentLang] || translations['sq'];
 
-    // Përdorim .map().join('') për një renderim më të pastër dhe pa "undefined"
     const menuHTML = items.map(item => {
-        // --- LOGJIKA E RE E ÇMIMEVE ---
         let priceSection = '';
 
-        // Kontrollojmë nëse produkti ka çmim familjar (si pica)
         if (item.price_family && item.price_normal) {
             priceSection = `
                 <div class="price-item">
-                    <span class="price-label">Normale</span>
+                    <span class="price-label">${t.normal}</span>
                     <span class="price-value">${item.price_normal}</span>
                 </div>
                 <div class="price-item">
-                    <span class="price-label">Familjare</span>
+                    <span class="price-label">${t.family}</span>
                     <span class="price-value">${item.price_family}</span>
                 </div>
             `;
         } else {
-            // Rasti për pije ose produkte me vetëm 1 çmim
-            // Përdorim çmimin që gjejmë (price_normal ose thjesht price)
             const singlePrice = item.price_normal || item.price || "---";
             priceSection = `
                 <div class="price-item single">
@@ -94,9 +100,26 @@ function renderMenu(items) {
     container.innerHTML = menuHTML;
 }
 
-// Ndryshimi i Gjuhes
 document.querySelectorAll('input[name="lang"]').forEach(input => {
     input.addEventListener('change', (e) => fetchMenu(e.target.value));
 });
 
 window.addEventListener('DOMContentLoaded', () => fetchMenu('sq'));
+const scrollButton = document.getElementById("scrollToTop");
+
+window.addEventListener("scroll", () => {
+    // Shfaq butonin vetëm nëse kemi bërë scroll më shumë se 300px
+    if (window.scrollY > 300) {
+        scrollButton.style.display = "block";
+    } else {
+        scrollButton.style.display = "none";
+    }
+});
+
+// Funksioni për t'u kthyer në krye kur klikon butonin
+scrollButton.addEventListener("click", () => {
+    window.scrollTo({
+        top: 0,
+        behavior: "smooth" // Ky efekt e bën kthimin të butë, jo kërcim
+    });
+});
